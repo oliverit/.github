@@ -8,7 +8,6 @@
 
 ---
 #### To-do list (Check these items off as they're completed)
-- [ ] My code follows the style guidelines of our team
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] My changes generate no new warnings
@@ -16,3 +15,4 @@
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] There are no accidental commits containing secrets/passwords/etc.
+- [ ] My code follows the style guidelines of our team
