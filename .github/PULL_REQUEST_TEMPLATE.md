@@ -1,7 +1,7 @@
 ### Description of changes
 
 <!--
-  Add a sentence or two in the blank space below describing the changes your PR makes.
+  Replace this comment with a description of the changes your PR makes.
   Include any info that might be relevant for your teammates to understand and discuss the changes.
   (Also, make sure to add a meaningful title above! Please don't just use the branch name or story number).
 -->
