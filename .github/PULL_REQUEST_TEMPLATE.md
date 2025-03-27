@@ -7,17 +7,18 @@
 -->
 
 <!--
-  If you are merging to master, please make sure to add a link to the customer approval below (to Xurrent/Shortcut/ etc.):
+  If you are merging to master, please make sure to add a link to the customer approval below if applicable (to Xurrent/Shortcut/ etc.):
 
   ---
   ### Approved for production at:
-
+  Xurrent ticket: [Xurrent ticket number](https://xurrent.com/ticket/12345)
 --->
 
 ---
 
 ### To-do list (Check these items off as they're completed)
 
+- [ ] I have checked the PR merges to the correct branch
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] My changes generate no new warnings
