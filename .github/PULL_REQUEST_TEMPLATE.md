@@ -22,7 +22,7 @@
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] My changes generate no new warnings
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] Any changes my new code depends on are available in the target branch
 - [ ] There are no accidental commits containing secrets/passwords/etc.
 - [ ] My code follows the style guidelines of our team
 
