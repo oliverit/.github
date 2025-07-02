@@ -26,6 +26,15 @@
 - [ ] There are no accidental commits containing secrets/passwords/etc.
 - [ ] My code follows the style guidelines of our team
 
+#### Monorepo checklist (if applicable)
+
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes at root level
+- [ ] I reviewed whether my changes impact other packages or workspaces in the repo, and tested them if applicable
+- [ ] Newly added dependencies are added at root level to the relevant workspace using `npm install workspace=<workspace-name>` and not using `npm install` in the individual workspace
+- [ ] I have bumped the version number in `package.json` of all affected workspaces if applicable
+- [ ] There are no missing or redundant translations in the localization files
+
 #### Front-end checklist (if applicable)
 
 - [ ] I have bumped the version number in `package.json` if applicable
