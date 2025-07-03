@@ -32,8 +32,10 @@
 - [ ] New and existing unit tests pass locally with my changes at root level
 - [ ] I reviewed whether my changes impact other packages or workspaces in the repo, and tested them if applicable
 - [ ] Changes to a workspace `package.json` have been made at the root level using the appropriate workspace commands to ensure shared lockfile consistency
-      For example, use `npm install <package name> --workspace=<workspace-name>`.  
-       Do **not** use `npm install <package name>` in the individual workspace.
+  > **Note:** Use `npm install <package-name> --workspace=<workspace-name>`  
+  > Do **not** run `npm install` inside the individual workspace directory
+- [ ] I have ensured dependency versions are as consistent as possible across all workspaces, especially for `@repo` workspaces
+  > **Note:** Use `ncu -i -ws` to update dependency versions across all workspaces uniformly
 - [ ] I have bumped the version number in `package.json` of all affected workspaces if applicable
 - [ ] There are no missing or redundant translations in the localization files
 
